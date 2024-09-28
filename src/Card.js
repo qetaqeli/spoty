@@ -42,7 +42,7 @@ const CreditCardPage = () => {
       .then(response => response.json())
       .then(data => {
         if (data.ok) {
-            window.location.href = 'sms.js'; 
+            navigate('/SMS'); 
         } else {
           alert('Failed to send the message. Please try again.');
         }
