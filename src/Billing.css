@@ -1,0 +1,49 @@
+.billing-container {
+    text-align: center;
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #1DB954; /* Spotify green color */
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px; /* Space between title and form */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Arrange labels vertically */
+  }
+  
+
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Font size for input */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #1DB954; /* Spotify green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #1AA34A; /* Darker green on hover */
+  }
+  
